@@ -35,6 +35,10 @@ h1, h2, h3, h4 {
     font-weight: 300;
     color: #fafafa;}
 
+.inline-block{
+    display: inline-block;
+}
+
 
 /*--------------------------------------------Heading*/
 
@@ -82,17 +86,19 @@ header {
     font-size: 0;
 }
 
-#nav {margin:0;}
+#nav {
+    margin:0;}
 
 #nav li {
     font-size: 14px;
-    padding: 0;
+    padding-top 20px;
 }
 
 .menuitem{
     height: 120px;
     text-align: center;
     padding: 0;
+    vertical-align: center;
 }
 
 .menuitem a {
@@ -134,4 +140,48 @@ footer{
     color:#fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links{
+    padding-bottom: 15 px;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    color: #fafafa;
+    background: #8f8f8f;
+    letter-spacing: 8 px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+}
+
+#footer-details {
+    padding: 20px
 }
